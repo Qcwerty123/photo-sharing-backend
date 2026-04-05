@@ -1,0 +1,42 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Lỗi và logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Môi trường và Bảo mật (CỰC KỲ QUAN TRỌNG)
+.env
+.env.test
+.env.production
+.env.local
+
+# Các thư mục build/biên dịch (nếu sau này bạn dùng TypeScript hoặc Babel)
+dist/
+build/
+out/
+
+# Các file sinh ra bởi Hệ điều hành
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# File cấu hình của các Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage directory dùng cho testing
+coverage/
+.nyc_output/
